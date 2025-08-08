@@ -7,8 +7,8 @@ sudo dnf install docker-ce docker-ce-cli containerd.io docker-buildx-plugin dock
 ```
 
 ```bash
-sudo systemctl start nginx
-sudo syatemctl enable nginx
+sudo systemctl start docker
+sudo syatemctl enable docker
 ```
 
 ```bash
