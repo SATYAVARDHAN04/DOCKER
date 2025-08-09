@@ -1,4 +1,5 @@
-FROM almalinux:9
+ARG version=8
+FROM almalinux:${version}
 ENV Name="Satya vardhan" \
     Age="23"
 ARG weight="12"
