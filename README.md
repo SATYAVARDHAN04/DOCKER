@@ -47,3 +47,9 @@ docker tag vardha:v2 satyology/vardha:v2
 ```bash
 docker push satyology/vardha:v2
 ```
+
+### ENTER INTO A DOCKER SHELL
+
+```bash
+docker exec -it 3d10ee9a2ff5 bash
+```
