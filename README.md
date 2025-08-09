@@ -21,6 +21,10 @@ sudo usermod -aG docker ec2-user
 docker build -t <image_name>:<version> .
 ```
 
+```bash
+docker build -t <image_name>:<version> --progress=plain --no-cache .
+```
+
 ### RUNNING A DOCKER CONTAINER OF THE IMAGE
 
 ```bash
