@@ -1,5 +1,5 @@
 ARG version
-FROM almalinux:-$version
+FROM almalinux:${version:-8}
 ENV Name="Satya vardhan" \
     Age="23"
 ARG weight="12"
