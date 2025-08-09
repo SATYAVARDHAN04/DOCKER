@@ -1,4 +1,5 @@
 FROM almalinux:9
+
 LABEL Name="Satya vardhan" \
-      Age=23 \
+      Age="23" \
       Subject="Math"
