@@ -1,0 +1,8 @@
+FROM almalinux:9
+
+RUN mkdir /tmp/new
+#cd /tmp/new does not work here ....
+WORKDIR /tmp/new
+
+RUN echo "HELLO WORLD ...." > hello.txt
+CMD [ "sleep", "1000"]
