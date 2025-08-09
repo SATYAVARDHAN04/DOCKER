@@ -19,3 +19,18 @@ sudo usermod -aG docker ec2-user
 ```bash
 docker images --filter "label=Age=23"
 ```
+
+### PUSHING TO DOCKER HUB
+
+```bash
+docker login -u satyology
+```
+
+```bash
+docker tag vardha:v2 satyology/vardha:v2
+```
+
+```bash
+docker push satyology/vardha:v2
+```
+
