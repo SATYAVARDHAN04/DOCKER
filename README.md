@@ -14,3 +14,8 @@ sudo systemctl enable docker
 ```bash
 sudo usermod -aG docker ec2-user
 ```
+### LABELS
+
+```bash
+docker images --filter "label=Age=23"
+```
