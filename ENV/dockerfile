@@ -3,4 +3,4 @@ FROM almalinux:9
 ENV Name="Satya Vardhan" \
     Age="23" \
     Size="10"
-CMD ["sleep", 1000]
+CMD ["sleep", "1000"]
