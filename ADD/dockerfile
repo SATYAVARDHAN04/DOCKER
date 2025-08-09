@@ -9,5 +9,6 @@ RUN rm -rf /usr/share/nginx/html/index.html
 # Add new file from GitHub
 ADD https://raw.githubusercontent.com/daws-84s/notes/refs/heads/main/session-01.txt /usr/share/nginx/html/index.html
 
+RUN chmod +r /usr/share/nginx/html/index.html
 # Run nginx in foreground when container starts
 CMD ["nginx", "-g", "daemon off;"]
