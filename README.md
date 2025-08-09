@@ -14,6 +14,7 @@ sudo systemctl enable docker
 ```bash
 sudo usermod -aG docker ec2-user
 ```
+
 ### BUILDING A DOCKER IMAGE
 
 ```bash
@@ -24,6 +25,7 @@ docker build -t <image_name>:<version> .
 
 ```bash
 docker run -d -p <host_port>:<container_port> <image_name>
+docker run <image_name>
 ```
 
 ### LABELS
@@ -45,4 +47,3 @@ docker tag vardha:v2 satyology/vardha:v2
 ```bash
 docker push satyology/vardha:v2
 ```
-
