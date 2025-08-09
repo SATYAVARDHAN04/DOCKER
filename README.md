@@ -14,6 +14,18 @@ sudo systemctl enable docker
 ```bash
 sudo usermod -aG docker ec2-user
 ```
+### BUILDING A DOCKER IMAGE
+
+```bash
+docker build -t <image_name>:<version> .
+```
+
+### RUNNING A DOCKER CONTAINER OF THE IMAGE
+
+```bash
+docker run -d -p <host_port>:<container_port> <image_name>
+```
+
 ### LABELS
 
 ```bash
